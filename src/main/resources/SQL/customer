@@ -1,0 +1,12 @@
+create TABLE `customer`(
+`id`    bigint(20) NOT NULL AUTO_INCREMENT,
+`name`  VARCHAR(255) DEFAULT NULL ,
+`contact` VARCHAR(255) DEFAULT NULL,
+`telephone` VARCHAR(255) DEFAULT NULL,
+`email` VARCHAR(255) DEFAULT NULL,
+`remart` TEXT,
+PRIMARY KEY (`id`)
+)ENGINE = InnoDB DEFAULT CHARSET = utf8;
+
+
+INSERT INTO customer VALUES('1','customer1','jack','13507882912','jack@gmail.com','text')
